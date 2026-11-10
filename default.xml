@@ -4,7 +4,7 @@
   <default revision="android15-tests-release" remote="aosp" sync-j="4" />
 
   <contactinfo bugurl="go/repo-bug" />
-  <project path="build/make" name="platform/build" groups="pdk" revision="323c24613ad6b9ec81105fd75a6bccea4febb5cd" upstream="android15-tests-release">
+  <project path="build/make" name="platform/build" groups="pdk" revision="6a4ce34abc62c818bc67e063b131f770486aa16d" upstream="android15-tests-release">
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
     <linkfile src="core" dest="build/core" />
@@ -29,7 +29,7 @@
   <project path="bootable/deprecated-ota" name="platform/bootable/deprecated-ota" groups="pdk-cw" revision="951a7b93163bf46c424554a82dfb222b76d2e652" upstream="android15-tests-release" />
   <project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk" revision="4f2b04b79a563e8f0fc7b3c0aec99ffaf9dc0afe" upstream="android15-tests-release" />
   <project path="bootable/libbootloader" name="platform/bootable/libbootloader" groups="vts,pdk" revision="b6a3e20b77261718b70e0b4070c75aa82fef6262" upstream="android15-tests-release" />
-  <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs,pdk-fs" revision="b3633c8d5c11ca39373ed90f2a608af010d3145d" upstream="android15-tests-release" />
+  <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs,pdk-fs" revision="8602c23224c70c58b6c23fd7671cb2d2434f6fcb" upstream="android15-tests-release" />
   <project path="dalvik" name="platform/dalvik" groups="pdk-cw-fs,pdk-fs" revision="055d459012065f78d96b68be8421640240ddf631" upstream="android15-tests-release" />
   <project path="developers/build" name="platform/developers/build" groups="developers,pdk" revision="f67ba0ed7047fa4b1981f652100094642d097724" upstream="android15-tests-release" />
   <project path="developers/demos" name="platform/developers/demos" groups="developers" revision="03814c35b8ee0a1284c667556260124d97466b28" upstream="android15-tests-release" />
@@ -1350,7 +1350,7 @@
   <project path="tools/asuite" name="platform/tools/asuite" groups="pdk" revision="81eb4a2ac4d08c70bef69635ebead7f26158a112" upstream="android15-tests-release" />
   <project path="tools/carrier_settings" name="platform/tools/carrier_settings" groups="tools" revision="4eb4a1dad83637200eb2aada232b536706613665" upstream="android15-tests-release" />
   <project path="tools/currysrc" name="platform/tools/currysrc" groups="pdk" revision="5819393ca04902c8fea8f07062d7e38f76aa36c5" upstream="android15-tests-release" />
-  <project path="tools/deviceinfra/prebuilts" name="platform/tools/deviceinfra/prebuilts" groups="pdk,tools" revision="99fa973e038143f2cc070a954906ec7bf11c0864" upstream="android15-tests-release" />
+  <project path="tools/deviceinfra/prebuilts" name="platform/tools/deviceinfra/prebuilts" groups="pdk,tools" revision="be2b82896d6a2e8ba061b8063365d2cb7e8f1e56" upstream="android15-tests-release" />
   <project path="tools/dexter" name="platform/tools/dexter" groups="tools,pdk-cw-fs,pdk-fs" revision="27695d3ceda1808b49cdc4aa1d5ed636e56871fa" upstream="android15-tests-release" />
   <project path="tools/doc_generation" name="platform/tools/doc_generation" groups="tools,pdk" revision="a17cc37541597fbb02676bbda5afcc2b1077cbf7" upstream="android15-tests-release" />
   <project path="tools/external_updater" name="platform/tools/external_updater" groups="tools" revision="4cb92fdf950088feb6a4efcc932a2a235557a4b5" upstream="android15-tests-release" />
