@@ -1,46 +1,46 @@
 <manifest>
   <remote name="aosp" fetch=".." review="https://android-review.googlesource.com/" />
   <default revision="androidx-compose-release" remote="aosp" />
-  <project path="build/make" name="platform/build" revision="1b34af40a72060fe180946ad4f5faccf54d936ec" upstream="androidx-compose-release" />
+  <project path="build/make" name="platform/build" revision="7a6e1494786c0e59fc525b03ee2afd3f0ec196cb" upstream="androidx-compose-release" />
 
   
   
   <project path="external/dexter" name="platform/tools/dexter" clone-depth="1" revision="07c420bc5d890b4d257e5df355fc8b6c2120836f" upstream="androidx-compose-release" />
   <project path="external/noto-fonts" name="platform/external/noto-fonts" clone-depth="1" revision="7369705a97cfc734c9e30e932e1cd9373d27cde3" upstream="androidx-compose-release" />
-  <project path="external/webview_support_interfaces" name="platform/external/webview_support_interfaces" clone-depth="1" revision="8753743119cac7cbe657dd1a2eca225c824441a7" upstream="androidx-compose-release" />
-  <project path="external/icing" name="platform/external/icing" clone-depth="1" revision="f76c978fe3fee4cc0666fefe928550bb5176b387" upstream="androidx-compose-release" />
+  <project path="external/webview_support_interfaces" name="platform/external/webview_support_interfaces" clone-depth="1" revision="87a19f5f551496fbce538e0bf0b4b49461aa4288" upstream="androidx-compose-release" />
+  <project path="external/icing" name="platform/external/icing" clone-depth="1" revision="1fd845043255d5ac66b74c8a59a8c66ab08ef1ee" upstream="androidx-compose-release" />
   <project path="external/icu" name="platform/external/icu" clone-depth="1" revision="2819834e9aad8bd452680093c0c20f812d05582f" upstream="androidx-compose-release" />
   <project path="external/sqlite" name="platform/external/sqlite" clone-depth="1" revision="435030ce30e9197ac92fb79803b113b26665a9d9" upstream="androidx-compose-release" />
-  <project path="external/abseil-cpp" name="platform/external/abseil-cpp" clone-depth="1" revision="60e923389c8f0f30e811677348bbb49010dfd24b" upstream="androidx-compose-release" />
+  <project path="external/abseil-cpp" name="platform/external/abseil-cpp" clone-depth="1" revision="84883cde0a46feb00b11b6ca9d9f1760080df7ea" upstream="androidx-compose-release" />
   <project path="external/ink-stroke-modeler" name="platform/external/ink-stroke-modeler" clone-depth="1" revision="ab31c89c69dc4a3d90e8bb9ddf989115118e6252" upstream="androidx-compose-release" />
   <project path="external/libyuv" name="platform/external/libyuv" clone-depth="1" revision="6d7682804f5a90c4c1ec23b73b0317afdd88eb77" upstream="androidx-compose-release" />
 
   
-  <project path="external/compose-hero-benchmarks/pokedex-compose" name="platform/external/compose-hero-benchmarks/pokedex-compose" clone-depth="1" revision="bfa2b3ba7ea598b7f65ea6475f051c4681df667e" upstream="androidx-compose-release" />
-  <project path="external/compose-hero-benchmarks/pokedex-views" name="platform/external/compose-hero-benchmarks/pokedex-views" clone-depth="1" revision="9bdcc9e1668497d1ca7e56bac7a3efee1ba2dd82" upstream="androidx-compose-release" />
+  <project path="external/compose-hero-benchmarks/pokedex-compose" name="platform/external/compose-hero-benchmarks/pokedex-compose" clone-depth="1" revision="8c72ddc7fbad4768bcacf66d8fbc93a3fcf50b26" upstream="androidx-compose-release" />
+  <project path="external/compose-hero-benchmarks/pokedex-views" name="platform/external/compose-hero-benchmarks/pokedex-views" clone-depth="1" revision="3a1bccaf53f0fd9bf2890836265802de6e4c9430" upstream="androidx-compose-release" />
 
   
   <project path="external/protobuf" name="platform/external/protobuf" clone-depth="1" revision="7979e949c4ae9de5e14710023950a81e6e363864" upstream="androidx-compose-release" />
 
   <project path="prebuilts/androidx/chrome-for-testing" name="platform/prebuilts/androidx/chrome-for-testing" clone-depth="1" revision="554ec2c1ece82dcbe358592caf4c86a11ea49e62" upstream="androidx-compose-release" />
-  <project path="prebuilts/androidx/external" name="platform/prebuilts/androidx/external" clone-depth="1" revision="065fe6a23808531dd9ea97109d3e31cfab719b11" upstream="androidx-compose-release" />
-  <project path="prebuilts/androidx/internal" name="platform/prebuilts/androidx/internal" clone-depth="1" revision="1100f5c8a8549b4ed68332f775d3a9b925f89abf" upstream="androidx-compose-release" />
-  <project path="prebuilts/androidx/javascript-for-kotlin" name="platform/prebuilts/androidx/javascript-for-kotlin" clone-depth="1" revision="ec60e033680f6617f2a9af7b316428a3b0a9f5fb" upstream="androidx-compose-release" />
-  <project path="prebuilts/androidx/credentials" name="platform/prebuilts/androidx/credentials" clone-depth="1" revision="e2efb6bdfc91dc9e7fd37e9198bb61afe8591582" upstream="androidx-compose-release" />
+  <project path="prebuilts/androidx/external" name="platform/prebuilts/androidx/external" clone-depth="1" revision="729b27e2d669f7973537d30dc3e9c77629f0f2fb" upstream="androidx-compose-release" />
+  <project path="prebuilts/androidx/internal" name="platform/prebuilts/androidx/internal" clone-depth="1" revision="cc32d74f9c044ccae65223e60f6b29869f0bec07" upstream="androidx-compose-release" />
+  <project path="prebuilts/androidx/javascript-for-kotlin" name="platform/prebuilts/androidx/javascript-for-kotlin" clone-depth="1" revision="814f5a58bebe8b21f48d28d4f1e943abc1262cd7" upstream="androidx-compose-release" />
+  <project path="prebuilts/androidx/credentials" name="platform/prebuilts/androidx/credentials" clone-depth="1" revision="de42e94abb254e10eb6e461f34f7453c4c3a3fef" upstream="androidx-compose-release" />
   <project path="prebuilts/androidx/exoplayer" name="platform/prebuilts/androidx/exoplayer" clone-depth="1" revision="8759893b15627e09a76140ae550f478c782d3387" upstream="androidx-compose-release" />
-  <project path="prebuilts/androidx/ink" name="platform/prebuilts/androidx/ink" clone-depth="1" revision="af972ff1f2765ef5da88b86d8cc708633c3ec0ee" upstream="androidx-compose-release" />
-  <project path="prebuilts/androidx/traceprocessor" name="platform/prebuilts/androidx/traceprocessor" clone-depth="1" revision="f3f5dbbf0b058ff42c5a13830eed343025bf5b63" upstream="androidx-compose-release" />
-  <project path="prebuilts/androidx/konan" name="platform/prebuilts/androidx/konan" clone-depth="1" revision="fdb450dfb7d95d6bbc3aa99d19bc3524d7b6f79c" upstream="androidx-compose-release" />
-  <project path="prebuilts/androidx/webgpu" name="platform/prebuilts/androidx/webgpu" clone-depth="1" revision="29751ac21bdef5f59b8ba5df2e60e8b837e791d7" upstream="androidx-compose-release" />
-  <project path="prebuilts/androidx/xr" name="platform/prebuilts/androidx/xr" clone-depth="1" revision="8515a9db920fb537324c6a2112a0f18e24281aea" upstream="androidx-compose-release" />
+  <project path="prebuilts/androidx/ink" name="platform/prebuilts/androidx/ink" clone-depth="1" revision="dd88bf30637b4837235589cc43b3e1dab4c6b1cb" upstream="androidx-compose-release" />
+  <project path="prebuilts/androidx/traceprocessor" name="platform/prebuilts/androidx/traceprocessor" clone-depth="1" revision="99450b0e9d6465099f107871e5c1b3faf5d93681" upstream="androidx-compose-release" />
+  <project path="prebuilts/androidx/konan" name="platform/prebuilts/androidx/konan" clone-depth="1" revision="e1f113c76cc03d7c8a6afe400a636e97231aadf9" upstream="androidx-compose-release" />
+  <project path="prebuilts/androidx/webgpu" name="platform/prebuilts/androidx/webgpu" clone-depth="1" revision="fae5379dc3a00f991d322cc788d1f9f91d57fe90" upstream="androidx-compose-release" />
+  <project path="prebuilts/androidx/xr" name="platform/prebuilts/androidx/xr" clone-depth="1" revision="114ff9af64225868df7ab42a8c8149a5765faaf6" upstream="androidx-compose-release" />
 
   
   
-  <project path="tools/metalava" name="platform/tools/metalava" clone-depth="1" revision="686c6e686e2bf8493a8972b22148e3a7a7658369" upstream="androidx-compose-release" />
+  <project path="tools/metalava" name="platform/tools/metalava" clone-depth="1" revision="3b8c1512688db47f9d9d318cbed8c0170288f103" upstream="androidx-compose-release" />
   
   <project path="prebuilts/checkstyle" name="platform/prebuilts/checkstyle" clone-depth="1" revision="8f0647eb61e3c862d181ecfcf6350abd9a7f5499" upstream="androidx-compose-release" />
-  <project path="tools/repohooks" name="platform/tools/repohooks" clone-depth="1" revision="8b7ce1c4e051ef69076c01dc599a00625a792f39" upstream="androidx-compose-release" />
-  <project path="tools/fetch_artifact" name="tools/fetch_artifact" clone-depth="1" revision="125744fb2ed3b710d801a58197e57b24f60c2cc2" upstream="androidx-compose-release" />
+  <project path="tools/repohooks" name="platform/tools/repohooks" clone-depth="1" revision="505c8ad47cc0fc89c737f3d4b49db95ea94bd82b" upstream="androidx-compose-release" />
+  <project path="tools/fetch_artifact" name="tools/fetch_artifact" clone-depth="1" revision="0eb8b45f0008358897a655c628528b4ce0d292f7" upstream="androidx-compose-release" />
   
   <project path="prebuilts/protobuf" name="platform/prebuilts/protobuf" clone-depth="1" revision="b062a5112d5ba4a2d57e67349e8ceae89a017bcd" upstream="androidx-compose-release" />
   <project path="prebuilts/build-tools" name="platform/prebuilts/build-tools" clone-depth="1" revision="cbef715bf31935247a1dfc88bbcef1c66a042de2" upstream="androidx-compose-release" />
@@ -48,10 +48,10 @@
 
   
   
-  <project path="tools/external/gradle" name="platform/tools/external/gradle" clone-depth="1" revision="94884cad199072a36ba5be4ded2fa1aed3e8df89" upstream="androidx-compose-release" />
+  <project path="tools/external/gradle" name="platform/tools/external/gradle" clone-depth="1" revision="8c4a8362d7f255280f48a61ed82c4d8d7c65ec35" upstream="androidx-compose-release" />
 
   
-  <project path="prebuilts/fullsdk-darwin/platforms" name="platform/prebuilts/fullsdk/platforms" clone-depth="1" revision="cbc1d943a17edc21b05a77d284d331131a8ad416" upstream="androidx-compose-release">
+  <project path="prebuilts/fullsdk-darwin/platforms" name="platform/prebuilts/fullsdk/platforms" clone-depth="1" revision="a13fab8caadf98222088c701afd3e00c5a01620e" upstream="androidx-compose-release">
     <linkfile src="." dest="prebuilts/fullsdk-linux/platforms" />
   </project>
   <project path="prebuilts/fullsdk-darwin/sources" name="platform/prebuilts/fullsdk/sources" clone-depth="1" revision="5c0a64388374e45a43f7fdc53241a0543f3378f6" upstream="androidx-compose-release">
@@ -59,13 +59,13 @@
   </project>
 
   
-  <project path="prebuilts/fullsdk-darwin/build-tools" name="platform/prebuilts/fullsdk-darwin/build-tools" clone-depth="1" groups="notdefault,platform-darwin" revision="de4c42cb2ccf97a76736f7d254baa4f6874b35b3" upstream="androidx-compose-release" />
+  <project path="prebuilts/fullsdk-darwin/build-tools" name="platform/prebuilts/fullsdk-darwin/build-tools" clone-depth="1" groups="notdefault,platform-darwin" revision="217631dc96dd2bb36e0df06db6f40566f61b16a7" upstream="androidx-compose-release" />
   <project path="prebuilts/fullsdk-darwin/cmdline-tools" name="platform/prebuilts/fullsdk-darwin/cmdline-tools" clone-depth="1" groups="notdefault,platform-darwin" revision="259b6a33db4ae6e34ce4121c79b48b222f9815ff" upstream="androidx-compose-release" />
   <project path="prebuilts/fullsdk-darwin/platform-tools" name="platform/prebuilts/fullsdk-darwin/platform-tools" clone-depth="1" groups="notdefault,platform-darwin" revision="a26e000e568ab3407f00d2988aa4b3feae3b08d6" upstream="androidx-compose-release" />
   <project path="prebuilts/fullsdk-darwin/tools" name="platform/prebuilts/fullsdk-darwin/tools" clone-depth="1" groups="notdefault,platform-darwin" revision="204b8813ffedef10214a4afe04c843f1ee9e4fe7" upstream="androidx-compose-release" />
 
   
-  <project path="prebuilts/fullsdk-linux/build-tools" name="platform/prebuilts/fullsdk-linux/build-tools" clone-depth="1" groups="notdefault,platform-linux" revision="94980c6d4b31c5bbddfaf2b90398fd5a6b6782df" upstream="androidx-compose-release" />
+  <project path="prebuilts/fullsdk-linux/build-tools" name="platform/prebuilts/fullsdk-linux/build-tools" clone-depth="1" groups="notdefault,platform-linux" revision="45eaa95461d7cbb81756db618a89528426575706" upstream="androidx-compose-release" />
   <project path="prebuilts/fullsdk-linux/cmdline-tools" name="platform/prebuilts/fullsdk-linux/cmdline-tools" clone-depth="1" groups="notdefault,platform-linux" revision="066e40b1aba006cf95698c9d34a5c50ff992f5d8" upstream="androidx-compose-release" />
   <project path="prebuilts/fullsdk-linux/platform-tools" name="platform/prebuilts/fullsdk-linux/platform-tools" clone-depth="1" groups="notdefault,platform-linux" revision="e64615b5eba8ed1f1f83364b94ec6d7c3f68d0c9" upstream="androidx-compose-release" />
   <project path="prebuilts/fullsdk-linux/tools" name="platform/prebuilts/fullsdk-linux/tools" clone-depth="1" groups="notdefault,platform-linux" revision="2d5e66a40bd1e6d43ee458efea6f1dd5d5166a59" upstream="androidx-compose-release" />
@@ -90,16 +90,18 @@
 
   
   
-  <project path="prebuilts/jdk/jdk21" name="platform/prebuilts/jdk/jdk21" clone-depth="1" revision="7320422905da50001eabe940d4a41d15b3801622" upstream="androidx-compose-release" />
+  <project path="prebuilts/jdk/jdk21" name="platform/prebuilts/jdk/jdk21" clone-depth="1" revision="3cedb02b3f738ca819f3add9d9597410d53d6413" upstream="androidx-compose-release" />
   <project path="prebuilts/jdk/jdk25" name="platform/prebuilts/jdk/jdk25" clone-depth="1" revision="34ad489a126b45a2bc13a1ff28498ad59d6917ce" upstream="androidx-compose-release" />
 
   
-  <project path="golden" name="platform/frameworks/support-golden" clone-depth="1" revision="89b7330b1dc49ad9e57a5981fa1d5b2cf0279922" upstream="androidx-compose-release" />
+  <project path="golden" name="platform/frameworks/support-golden" clone-depth="1" revision="9acfcd29cfeb210504e31211bcea9f8e8e0688fb" upstream="androidx-compose-release" />
 
   
 
   
-  <project path="frameworks/support" name="platform/frameworks/support" revision="5e0747401bf56b243e3b5141ae080dc9bc61d29c" upstream="androidx-compose-release" />
+  <project path="frameworks/support" name="platform/frameworks/support" revision="b83191efb8a0aca43da42bfbb2a790a14e131e00" upstream="androidx-compose-release">
+    <linkfile src=".agents" dest=".agents" />
+  </project>
   
 
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
