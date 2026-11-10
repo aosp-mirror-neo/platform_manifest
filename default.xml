@@ -57,20 +57,20 @@
   <project path="external/ukey2" name="platform/external/ukey2" groups="pdk" />
   <project path="external/libyuv" name="platform/external/libyuv" />
   <project path="frameworks/opt/car/setupwizard" name="platform/frameworks/opt/car/setupwizard" groups="pdk" />
-  <project path="packages/apps/Car/BugReport" name="platform/packages/apps/Car/BugReport"  groups="pdk-fs" revision="mirror-car-apps-aosp-release" />
-  <project path="packages/apps/Car/Calendar" name="platform/packages/apps/Car/Calendar" groups="pdk-fs" revision="mirror-car-apps-aosp-release" />
+  <project path="packages/apps/Car/BugReport" name="platform/packages/apps/Car/BugReport" groups="pdk-fs" revision="a6d95ea23928b8a40bd0425e3de7bb7469020c3e" upstream="mirror-car-apps-aosp-release" />
+  <project path="packages/apps/Car/Calendar" name="platform/packages/apps/Car/Calendar" groups="pdk-fs" revision="811539075d7fb563c67a52b40f98bf916038ef8d" upstream="mirror-car-apps-aosp-release" />
   <project path="packages/apps/Car/CompanionDeviceSupport" name="platform/packages/apps/Car/CompanionDeviceSupport" groups="pdk-fs" revision="ub-automotive-main" />
-  <project path="packages/apps/Car/Dialer" name="platform/packages/apps/Car/Dialer" groups="pdk-fs" revision="mirror-car-apps-aosp-release" />
-  <project path="packages/apps/Car/Dashcam" name="platform/packages/apps/Car/Dashcam" groups="pdk-fs" revision="mirror-car-apps-aosp-release" />
-  <project path="packages/apps/Car/Media" name="platform/packages/apps/Car/Media" groups="pdk-fs" revision="mirror-car-apps-aosp-release" />
-  <project path="packages/apps/Car/Messenger" name="platform/packages/apps/Car/Messenger" groups="pdk-fs" revision="mirror-car-apps-aosp-release"/>
-  <project path="packages/apps/Car/MultiDisplay" name="platform/packages/apps/Car/MultiDisplay" groups="pdk-fs" revision="mirror-car-apps-aosp-release" />
-  <project path="packages/apps/Car/Radio" name="platform/packages/apps/Car/Radio" groups="pdk-fs" revision="mirror-car-apps-aosp-release" />
-  <project path="packages/apps/Car/DriverUI" name="platform/packages/apps/Car/DriverUI" groups="pdk-fs" revision="mirror-car-apps-aosp-release" />
-  <project path="packages/apps/Car/SensitiveAppLock" name="platform/packages/apps/Car/SensitiveAppLock" groups="pdk-fs" revision="mirror-car-apps-aosp-release" />
+  <project path="packages/apps/Car/Dialer" name="platform/packages/apps/Car/Dialer" groups="pdk-fs" revision="6c63c43daa4aca3909a65662010fa0ef4fc619f8" upstream="mirror-car-apps-aosp-release" />
+  <project path="packages/apps/Car/Dashcam" name="platform/packages/apps/Car/Dashcam" groups="pdk-fs" revision="ddc4abc98394ed8d4f6c87244132953fb31f1f39" upstream="mirror-car-apps-aosp-release" />
+  <project path="packages/apps/Car/Media" name="platform/packages/apps/Car/Media" groups="pdk-fs" revision="218074cb0ac7d138a7ca0842b01c4a4d77495905" upstream="mirror-car-apps-aosp-release" />
+  <project path="packages/apps/Car/Messenger" name="platform/packages/apps/Car/Messenger" groups="pdk-fs" revision="29a80b2b50e203e958c261dea2c6bc0d7b321762" upstream="mirror-car-apps-aosp-release" />
+  <project path="packages/apps/Car/MultiDisplay" name="platform/packages/apps/Car/MultiDisplay" groups="pdk-fs" revision="4117666519deea59b316bcdc6b434caa39da1f8f" upstream="mirror-car-apps-aosp-release" />
+  <project path="packages/apps/Car/Radio" name="platform/packages/apps/Car/Radio" groups="pdk-fs" revision="438596697c3dea34e61c159c1825996750cc6857" upstream="mirror-car-apps-aosp-release" />
+  <project path="packages/apps/Car/DriverUI" name="platform/packages/apps/Car/DriverUI" groups="pdk-fs" revision="bfed6edcee3249285d967cef0081971d7e0a82ae" upstream="mirror-car-apps-aosp-release" />
+  <project path="packages/apps/Car/SensitiveAppLock" name="platform/packages/apps/Car/SensitiveAppLock" groups="pdk-fs" revision="d8afd9c09eb5bd2ed7a4aff58c915d49e7cd8f21" upstream="mirror-car-apps-aosp-release" />
   <project path="packages/apps/Car/Templates" name="platform/packages/apps/Car/Templates" groups="pdk-fs" />
-  <project path="packages/apps/Car/libs" name="platform/packages/apps/Car/libs" groups="pdk-fs" revision="mirror-car-apps-aosp-release" />
-  <project path="packages/apps/Car/tests" name="platform/packages/apps/Car/tests" groups="pdk-fs" revision="mirror-car-apps-aosp-release" />
+  <project path="packages/apps/Car/libs" name="platform/packages/apps/Car/libs" groups="pdk-fs" revision="e048f774859c14a7171b0d8100300b3c714cf9ae" upstream="mirror-car-apps-aosp-release" />
+  <project path="packages/apps/Car/tests" name="platform/packages/apps/Car/tests" groups="pdk-fs" revision="8b64bdeeb76193a0543cc4bfaaa6553fb62457c0" upstream="mirror-car-apps-aosp-release" />
   <project path="prebuilts/checkstyle" name="platform/prebuilts/checkstyle" groups="pdk" clone-depth="1" />
   <project path="prebuilts/jdk/jdk11" name="platform/prebuilts/jdk/jdk11" groups="pdk" clone-depth="1" />
   <project path="prebuilts/jdk/jdk17" name="platform/prebuilts/jdk/jdk17" groups="pdk" clone-depth="1" />
