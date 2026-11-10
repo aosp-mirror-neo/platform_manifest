@@ -4,7 +4,7 @@
   <default revision="android15-tests-release" remote="aosp" sync-j="4" />
 
   <contactinfo bugurl="go/repo-bug" />
-  <project path="build/make" name="platform/build" groups="pdk" revision="6a4ce34abc62c818bc67e063b131f770486aa16d" upstream="android15-tests-release">
+  <project path="build/make" name="platform/build" groups="pdk" revision="5f9284dd2f28b6b754e2ac887b0a7dececf1c2fe" upstream="android15-tests-release">
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
     <linkfile src="core" dest="build/core" />
@@ -1368,7 +1368,7 @@
   <project path="tools/test/mobly_extensions" name="platform/tools/test/mobly_extensions" groups="pdk" revision="050b47820173185eba555d2edf09a17334e375a9" upstream="android15-tests-release" />
   <project path="tools/test/mobly_snippets" name="platform/tools/test/mobly_snippets" groups="pdk" revision="cd87a9cf11be58c4fc17af8d0ab14281c46c14ed" upstream="android15-tests-release" />
   <project path="tools/test/openhst" name="platform/tools/test/openhst" groups="tools" revision="1b5ad3e9ba5b82967bb9bfd2e63efc075ef3df75" upstream="android15-tests-release" />
-  <project path="tools/tradefederation/prebuilts" name="platform/tools/tradefederation/prebuilts" groups="pdk,tradefed" clone-depth="1" revision="4a9423c0147fabae8b68d2dda3d580f233a84592" upstream="android15-tests-release" />
+  <project path="tools/tradefederation/prebuilts" name="platform/tools/tradefederation/prebuilts" groups="pdk,tradefed" clone-depth="1" revision="99a5933b418393abc692f91793e97345df646507" upstream="android15-tests-release" />
   <project path="tools/treble" name="platform/tools/treble" groups="tools,pdk" revision="d15b469cdcbd79b625066924477fe9d314f1f349" upstream="android15-tests-release" />
   <project path="tools/trebuchet" name="platform/tools/trebuchet" groups="tools,cts,pdk,pdk-cw-fs,pdk-fs" revision="14e85d58461740d86077d268c623249077d8ae09" upstream="android15-tests-release" />
   <project path="trusty/device/arm/generic-arm64" name="trusty/device/arm/generic-arm64" groups="trusty" revision="f49beacbb089828255d293f34d7a0f64fa7623a5" upstream="android15-tests-release" />
