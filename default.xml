@@ -8,6 +8,8 @@
            remote="aosp"
            sync-j="4" />
 
+  <superproject name="platform/superproject" remote="aosp" revision="ub-automotive-master" />
+
   <manifest-server url="http://android-smartsync.corp.google.com/android.googlesource.com/manifestserver" />
 
   <!-- Config: shallow + same revision -->
