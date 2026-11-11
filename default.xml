@@ -8,6 +8,7 @@
            sync-j="8" />
   <superproject name="platform/superproject" revision="metalava-main"/>
   <project path="tools/metalava" name="platform/tools/metalava" />
+  <project path="external/turbine" name="platform/external/turbine"/>
   <project path="prebuilts/tools" name="platform/prebuilts/tools" clone-depth="1" revision="main" />
   <project path="prebuilts/jdk/jdk21"
            name="platform/prebuilts/jdk/jdk21"
