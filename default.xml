@@ -1,7 +1,7 @@
 <manifest>
   <remote name="aosp" fetch=".." review="https://android-review.googlesource.com/" />
   <default revision="androidx-xr-scenecore-release" remote="aosp" />
-  <project path="build/make" name="platform/build" revision="94a1e15ffb13f83df5b44edb3b54f4b09cfabd65" upstream="androidx-xr-scenecore-release" />
+  <project path="build/make" name="platform/build" revision="9966e0e8c84ae80f35e61f1bf215cfc66e4d25f6" upstream="androidx-xr-scenecore-release" />
 
   
   
@@ -23,7 +23,7 @@
   <project path="external/protobuf" name="platform/external/protobuf" clone-depth="1" revision="24a7e90629553667d2c1f5f748e5c5242790f7e5" upstream="androidx-xr-scenecore-release" />
 
   <project path="prebuilts/androidx/chrome-for-testing" name="platform/prebuilts/androidx/chrome-for-testing" clone-depth="1" revision="554ec2c1ece82dcbe358592caf4c86a11ea49e62" upstream="androidx-xr-scenecore-release" />
-  <project path="prebuilts/androidx/external" name="platform/prebuilts/androidx/external" clone-depth="1" revision="fc2ffcccd28a76a0d88a907b04ff8a6d14c38c90" upstream="androidx-xr-scenecore-release" />
+  <project path="prebuilts/androidx/external" name="platform/prebuilts/androidx/external" clone-depth="1" revision="0e6166981f7b8becf589390613d97db8fbbcbf18" upstream="androidx-xr-scenecore-release" />
   <project path="prebuilts/androidx/internal" name="platform/prebuilts/androidx/internal" clone-depth="1" revision="4b443eca81bd5229987b2f9cefa90da944456f8a" upstream="androidx-xr-scenecore-release" />
   <project path="prebuilts/androidx/javascript-for-kotlin" name="platform/prebuilts/androidx/javascript-for-kotlin" clone-depth="1" revision="4de07fd6472a7f7e3d57b11e54ea78903c04c223" upstream="androidx-xr-scenecore-release" />
   <project path="prebuilts/androidx/credentials" name="platform/prebuilts/androidx/credentials" clone-depth="1" revision="ff3186ca113466c35da07c0c6d8cd7381efaa0fb" upstream="androidx-xr-scenecore-release" />
@@ -99,7 +99,7 @@
   
 
   
-  <project path="frameworks/support" name="platform/frameworks/support" revision="9b00eff832fffc1d21c92cc05e2dc7fc9fad5072" upstream="androidx-xr-scenecore-release" />
+  <project path="frameworks/support" name="platform/frameworks/support" revision="1910923a27ca8045a2c2f844b206db87b5e82c7e" upstream="androidx-xr-scenecore-release" />
   
 
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
