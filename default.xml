@@ -4,7 +4,7 @@
   <default revision="android15-tests-release" remote="aosp" sync-j="4" />
 
   <contactinfo bugurl="go/repo-bug" />
-  <project path="build/make" name="platform/build" groups="pdk" revision="bb9e7a8ecc91850ea256bddf24bd02cd5ac131a4" upstream="android15-tests-release">
+  <project path="build/make" name="platform/build" groups="pdk" revision="590591293e243467b20e5f8f9700c6148de9d9d4" upstream="android15-tests-release">
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
     <linkfile src="core" dest="build/core" />
@@ -29,7 +29,7 @@
   <project path="bootable/deprecated-ota" name="platform/bootable/deprecated-ota" groups="pdk-cw" revision="951a7b93163bf46c424554a82dfb222b76d2e652" upstream="android15-tests-release" />
   <project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk" revision="4f2b04b79a563e8f0fc7b3c0aec99ffaf9dc0afe" upstream="android15-tests-release" />
   <project path="bootable/libbootloader" name="platform/bootable/libbootloader" groups="vts,pdk" revision="b6a3e20b77261718b70e0b4070c75aa82fef6262" upstream="android15-tests-release" />
-  <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs,pdk-fs" revision="742208199c7ebb69f9bf348a0b7be8faf536f5f3" upstream="android15-tests-release" />
+  <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs,pdk-fs" revision="904a876c6a72b7ca4bbc5b78991db43f50271cd2" upstream="android15-tests-release" />
   <project path="dalvik" name="platform/dalvik" groups="pdk-cw-fs,pdk-fs" revision="055d459012065f78d96b68be8421640240ddf631" upstream="android15-tests-release" />
   <project path="developers/build" name="platform/developers/build" groups="developers,pdk" revision="f67ba0ed7047fa4b1981f652100094642d097724" upstream="android15-tests-release" />
   <project path="developers/demos" name="platform/developers/demos" groups="developers" revision="03814c35b8ee0a1284c667556260124d97466b28" upstream="android15-tests-release" />
@@ -493,7 +493,7 @@
   <project path="external/roboto-fonts" name="platform/external/roboto-fonts" groups="pdk" revision="4029d6e45cb3ed68e3141332f91ce6ea561c0e1d" upstream="android15-tests-release" />
   <project path="external/rootdev" name="platform/external/rootdev" groups="pdk" revision="9bcc1fc0ac6cc0ff33916f8e6ce540d24c01bac6" upstream="android15-tests-release" />
   <project path="external/rnnoise" name="platform/external/rnnoise" groups="pdk" revision="1295d6828459cc82c3c29cc5d7d297215250a74b" upstream="android15-tests-release" />
-  <project path="external/rust/android-crates-io" name="platform/external/rust/android-crates-io" groups="pdk" revision="e624726b65deebe52cce6bb1d3ecaaa8f1568072" upstream="android15-tests-release" />
+  <project path="external/rust/android-crates-io" name="platform/external/rust/android-crates-io" groups="pdk" revision="6eaaa9028abdd3a8674d10f99c65326268429b6d" upstream="android15-tests-release" />
   <project path="external/rust/crates/aarch64-paging" name="platform/external/rust/crates/aarch64-paging" groups="pdk" revision="8c987f3de08c094578c28f5526d35e72113d63d4" upstream="android15-tests-release" />
   <project path="external/rust/crates/acpi" name="platform/external/rust/crates/acpi" groups="pdk" revision="db82f8b2c9f92b16315415c3c582426abe41cd35" upstream="android15-tests-release" />
   <project path="external/rust/crates/ahash" name="platform/external/rust/crates/ahash" groups="pdk" revision="3e99fb3f1e5daa916b7ad2fc938acccdd92767f7" upstream="android15-tests-release" />
